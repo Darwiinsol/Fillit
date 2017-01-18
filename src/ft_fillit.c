@@ -6,7 +6,7 @@
 /*   By: pamicel <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/15 16:39:41 by pamicel           #+#    #+#             */
-/*   Updated: 2017/01/13 16:52:30 by apissier         ###   ########.fr       */
+/*   Updated: 2017/01/18 16:18:32 by apissier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,7 +97,7 @@ int						main(int ac, char **av)
 	int					size;
 
 	n = 0;
-	if (ac > 1)
+	if (ac == 2)
 	{
 		if ((all_tetros = ft_generate_tetros()))
 		{
